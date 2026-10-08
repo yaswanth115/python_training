@@ -2,12 +2,7 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+    def __str__(self):
+        return f"Name: {self.name}, Age: {self.age}"   # CTRL + / 
 s1=Person("diwakar",20)
 print(s1)
-s2=Person("Yaswanth",23)
-print(s1.name)
-print(s1.age)
-print(s2.name)
-s1.age =21
-print(s1.age)
-        
